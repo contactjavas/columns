@@ -1,0 +1,83 @@
+/*! https://github.com/greenoss/columns v0.1.0 | MIT License | https://github.com/greenoss/columns */
+
+@charset "utf-8"
+
+@import "config/_all"
+@import "mixins/_all"
+
+/* general */
+*
+  +box-sizing(border-box)
+
+.clearfix, .columns::after
+  +clearfix
+
+.columns
+
+  > .column
+    float: left
+
+    &:last-child, &.floated-right
+      float: right
+
+    &.left:last-child
+      float: left
+
+.invisible
+  position: fixed
+  top: -100px
+  left: -100px
+  display: block
+  visibility: hidden
+  width: 0
+  height: 0
+  color: transparent
+  overflow: hidden
+
+/* all devices */
++setup-width
++setup-display
++setup-position
++setup-alignment
+
+/* from phone above */
++from-phone
+  +setup-width(phone)
+  +setup-display(phone)
+  +setup-position(phone)
+  +setup-alignment(phone)
+
+/* from phone landscape above */
++from-phonels
+  +setup-width(phonels)
+  +setup-display(phonels)
+  +setup-position(phonels)
+  +setup-alignment(phonels)
+
+/* from tablet above */
++from-tablet
+  +setup-width(tablet)
+  +setup-display(tablet)
+  +setup-position(tablet)
+  +setup-alignment(tablet)
+
+/* from tablet landscape above */
++from-tabletls
+  +setup-width(tabletls)
+  +setup-display(tabletls)
+  +setup-position(tabletls)
+  +setup-alignment(tabletls)
+
+/* from desktop above */
++from-desktop
+  +setup-width(desktop)
+  +setup-display(desktop)
+  +setup-position(desktop)
+  +setup-alignment(desktop)
+
+/* from widescreen above */
++from-widescreen
+  +setup-width(widescreen)
+  +setup-display(widescreen)
+  +setup-position(widescreen)
+  +setup-alignment(widescreen)

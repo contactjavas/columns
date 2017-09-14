@@ -1,0 +1,135 @@
+@charset "utf-8"
+
+// "from" breakpoints
+=from-phone
+  // from phone above
+  // Currently phone is the most narrow breakpoint. That means, no min width defined
+  @media screen
+    @content
+
+=from-phonels
+  // from phone landscape above
+  @media screen and (min-width: $min-width-phonels)
+    @content
+
+=from-tablet
+  // from tablet above
+  @media screen and (min-width: $min-width-tablet)
+    @content
+
+=from-tabletls
+  // from tablet landscape above
+  @media screen and (min-width: $min-width-tabletls)
+    @content
+
+=from-desktop
+  // from desktop above
+  @media screen and (min-width: $min-width-desktop)
+    @content
+
+=from-widescreen
+  // from widescreen above
+  @media screen and (min-width: $min-width-widescreen)
+    @content
+
+
+
+// "until" breakpoints
+=until-phone
+  // from 0 until phone's max width
+  @media screen and (max-width: $max-width-phone)
+    @content
+
+=until-phonels
+  // from 0 until phone landscape's max width
+  @media screen and (max-width: $max-width-phonels)
+    @content
+
+=until-tablet
+  // from 0 until tablet's max width
+  @media screen and (max-width: $max-width-tablet)
+    @content
+
+=until-tabletls
+  // from 0 until tablet landscape's max width
+  @media screen and (max-width: $max-width-tabletls)
+    @content
+
+=until-desktop
+  // from 0 to desktop's max width
+  @media screen and (max-width: $max-width-desktop)
+    @content
+
+=until-widescreen
+  // from 0 until widescreen's max width
+  // Currently widescreen is the widest breakpoint. That means, no max width defined
+  @media screen
+    @content
+
+
+
+// "on" breakpoints (alternative names for "until" breakpoints)
+=on-phone
+  // from 0 until phone's max width
+  @media screen and (max-width: $max-width-phone)
+    @content
+
+=on-phonels
+  // from 0 until phone landscape's max width
+  @media screen and (max-width: $max-width-phonels)
+    @content
+
+=on-tablet
+  // from 0 until tablet's max width
+  @media screen and (max-width: $max-width-tablet)
+    @content
+
+=on-tabletls
+  // from 0 until tablet landscape's max width
+  @media screen and (max-width: $max-width-tabletls)
+    @content
+
+=on-desktop
+  // from 0 to desktop's max width
+  @media screen and (max-width: $max-width-desktop)
+    @content
+
+=on-widescreen
+  // from 0 until widescreen's max width
+  // Currently widescreen is the widest breakpoint. That means, no max width defined
+  @media screen
+    @content
+
+
+
+=phone-only
+  // from 0 until phone's max width
+  // Currently phone is the most narrow breakpoint. That means, no min width defined
+  @media screen and (max-width: $max-width-phone)
+    @content
+
+=phonels-only
+  // from phone landscape's min width until phone landscape's max width
+  @media screen and (min-width: $min-width-phonels) and (max-width: $max-width-phonels)
+    @content
+
+=tablet-only
+  // from tablet's min width until tablet's max width
+  @media screen and (min-width: $min-width-tablet) and (max-width: $max-width-tablet)
+    @content
+
+=tabletls-only
+  // from tablet landscape's min width until tablet landscape's max width
+  @media screen and (min-width: $min-width-tabletls) and (max-width: $max-width-tabletls)
+    @content
+
+=desktop-only
+  // from desktop's min width until desktop's max width
+  @media screen and (min-width: $min-width-desktop) and (max-width: $max-width-desktop)
+    @content
+
+=widescreen-only
+  // from widescreen's min width until widescreen's max width
+  // Currently widescreen is the widest breakpoint. That means, no max width defined
+  @media screen and (min-width: $min-width-widescreen)
+    @content
