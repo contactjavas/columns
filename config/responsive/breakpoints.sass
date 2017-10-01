@@ -4,29 +4,29 @@
 $percent-distance:       5
 $percent-points:         5 10 15 17 20 25 30 33 35 40 45 50 55 60 65 67 70 75 80 85 90 95 100
 
-// --------------------------------------------------
-// Manual Sizing
-// add .33 to make sure it really passes the original value
-// --------------------------------------------------
+// manual sizing
+// chrome emulator add .33px to devices width
+// sometimes adding just .33px is still not enough.
+// i make it .35px to make sure it really passes the original value
 
 // Currently we have "phone" as the most narrow defined breakpoint
-// For the most narrow, let's set it from zero/ beginning
+// For the most narrow, let's set it from zero or from beginning
 // That means, no min width defined
-$max-width-phone:        424.33px !default
+$max-width-phone:        480.35px !default
 
-$min-width-phonels:      $max-width-phone + 0.67px !default
-$max-width-phonels:      667.33px !default
+$min-width-phonels:      $max-width-phone + 0.65px !default
+$max-width-phonels:      667.35px !default
 
-$min-width-tablet:       $max-width-phonels + 0.67px !default
-$max-width-tablet:       800.33px !default
+$min-width-tablet:       $max-width-phonels + 0.65px !default
+$max-width-tablet:       800.35px !default
 
-$min-width-tabletls:     $max-width-tablet + 0.67px !default
-$max-width-tabletls:     1024.33px !default
+$min-width-tabletls:     $max-width-tablet + 0.65px !default
+$max-width-tabletls:     1024.35px !default
 
-$min-width-desktop:      $max-width-tabletls + 0.67px !default
-$max-width-desktop:      1366.33px !default
+$min-width-desktop:      $max-width-tabletls + 0.65px !default
+$max-width-desktop:      1366.35px !default
 
-// Currently we have "widescreen" as the widest defined breakpoint
+// Currently we have "widescreen" as the widest defined breakpoint (we can add more defined breakpoints later)
 // For the widest, let's set it as wide as possible
 // That means, no max width defined
-$min-width-widescreen:   $max-width-desktop + 0.67px !default
+$min-width-widescreen:   $max-width-desktop + 0.65px !default
