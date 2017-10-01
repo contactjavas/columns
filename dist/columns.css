@@ -1,4 +1,4 @@
-/*! https://github.com/greenoss/columns v0.1.0 | MIT License | https://github.com/greenoss/columns */
+/*! https://github.com/greenoss/columns v1.1.1 | MIT License | https://github.com/greenoss/columns */
 /* general */
 * {
   -moz-box-sizing: border-box;
@@ -36,95 +36,95 @@
 }
 
 /* all devices */
-.w5 {
+.width5 {
   width: 5%;
 }
 
-.w10 {
+.width10 {
   width: 10%;
 }
 
-.w15 {
+.width15 {
   width: 15%;
 }
 
-.w17 {
+.width17 {
   width: 17%;
 }
 
-.w20 {
+.width20 {
   width: 20%;
 }
 
-.w25 {
+.width25 {
   width: 25%;
 }
 
-.w30 {
+.width30 {
   width: 30%;
 }
 
-.w33 {
+.width33 {
   width: 33%;
 }
 
-.w35 {
+.width35 {
   width: 35%;
 }
 
-.w40 {
+.width40 {
   width: 40%;
 }
 
-.w45 {
+.width45 {
   width: 45%;
 }
 
-.w50 {
+.width50 {
   width: 50%;
 }
 
-.w55 {
+.width55 {
   width: 55%;
 }
 
-.w60 {
+.width60 {
   width: 60%;
 }
 
-.w65 {
+.width65 {
   width: 65%;
 }
 
-.w67 {
+.width67 {
   width: 67%;
 }
 
-.w70 {
+.width70 {
   width: 70%;
 }
 
-.w75 {
+.width75 {
   width: 75%;
 }
 
-.w80 {
+.width80 {
   width: 80%;
 }
 
-.w85 {
+.width85 {
   width: 85%;
 }
 
-.w90 {
+.width90 {
   width: 90%;
 }
 
-.w95 {
+.width95 {
   width: 95%;
 }
 
-.w100 {
+.width100 {
   width: 100%;
 }
 
@@ -200,73 +200,73 @@
 
 /* from phone above */
 @media screen {
-  .phone-w5 {
+  .phone-width5 {
     width: 5%;
   }
-  .phone-w10 {
+  .phone-width10 {
     width: 10%;
   }
-  .phone-w15 {
+  .phone-width15 {
     width: 15%;
   }
-  .phone-w17 {
+  .phone-width17 {
     width: 17%;
   }
-  .phone-w20 {
+  .phone-width20 {
     width: 20%;
   }
-  .phone-w25 {
+  .phone-width25 {
     width: 25%;
   }
-  .phone-w30 {
+  .phone-width30 {
     width: 30%;
   }
-  .phone-w33 {
+  .phone-width33 {
     width: 33%;
   }
-  .phone-w35 {
+  .phone-width35 {
     width: 35%;
   }
-  .phone-w40 {
+  .phone-width40 {
     width: 40%;
   }
-  .phone-w45 {
+  .phone-width45 {
     width: 45%;
   }
-  .phone-w50 {
+  .phone-width50 {
     width: 50%;
   }
-  .phone-w55 {
+  .phone-width55 {
     width: 55%;
   }
-  .phone-w60 {
+  .phone-width60 {
     width: 60%;
   }
-  .phone-w65 {
+  .phone-width65 {
     width: 65%;
   }
-  .phone-w67 {
+  .phone-width67 {
     width: 67%;
   }
-  .phone-w70 {
+  .phone-width70 {
     width: 70%;
   }
-  .phone-w75 {
+  .phone-width75 {
     width: 75%;
   }
-  .phone-w80 {
+  .phone-width80 {
     width: 80%;
   }
-  .phone-w85 {
+  .phone-width85 {
     width: 85%;
   }
-  .phone-w90 {
+  .phone-width90 {
     width: 90%;
   }
-  .phone-w95 {
+  .phone-width95 {
     width: 95%;
   }
-  .phone-w100 {
+  .phone-width100 {
     width: 100%;
   }
   .phone-hidden {
@@ -325,74 +325,74 @@
 }
 
 /* from phone landscape above */
-@media screen and (min-width: 425px) {
-  .phonels-w5 {
+@media screen and (min-width: 481px) {
+  .phonels-width5 {
     width: 5%;
   }
-  .phonels-w10 {
+  .phonels-width10 {
     width: 10%;
   }
-  .phonels-w15 {
+  .phonels-width15 {
     width: 15%;
   }
-  .phonels-w17 {
+  .phonels-width17 {
     width: 17%;
   }
-  .phonels-w20 {
+  .phonels-width20 {
     width: 20%;
   }
-  .phonels-w25 {
+  .phonels-width25 {
     width: 25%;
   }
-  .phonels-w30 {
+  .phonels-width30 {
     width: 30%;
   }
-  .phonels-w33 {
+  .phonels-width33 {
     width: 33%;
   }
-  .phonels-w35 {
+  .phonels-width35 {
     width: 35%;
   }
-  .phonels-w40 {
+  .phonels-width40 {
     width: 40%;
   }
-  .phonels-w45 {
+  .phonels-width45 {
     width: 45%;
   }
-  .phonels-w50 {
+  .phonels-width50 {
     width: 50%;
   }
-  .phonels-w55 {
+  .phonels-width55 {
     width: 55%;
   }
-  .phonels-w60 {
+  .phonels-width60 {
     width: 60%;
   }
-  .phonels-w65 {
+  .phonels-width65 {
     width: 65%;
   }
-  .phonels-w67 {
+  .phonels-width67 {
     width: 67%;
   }
-  .phonels-w70 {
+  .phonels-width70 {
     width: 70%;
   }
-  .phonels-w75 {
+  .phonels-width75 {
     width: 75%;
   }
-  .phonels-w80 {
+  .phonels-width80 {
     width: 80%;
   }
-  .phonels-w85 {
+  .phonels-width85 {
     width: 85%;
   }
-  .phonels-w90 {
+  .phonels-width90 {
     width: 90%;
   }
-  .phonels-w95 {
+  .phonels-width95 {
     width: 95%;
   }
-  .phonels-w100 {
+  .phonels-width100 {
     width: 100%;
   }
   .phonels-hidden {
@@ -452,73 +452,73 @@
 
 /* from tablet above */
 @media screen and (min-width: 668px) {
-  .tablet-w5 {
+  .tablet-width5 {
     width: 5%;
   }
-  .tablet-w10 {
+  .tablet-width10 {
     width: 10%;
   }
-  .tablet-w15 {
+  .tablet-width15 {
     width: 15%;
   }
-  .tablet-w17 {
+  .tablet-width17 {
     width: 17%;
   }
-  .tablet-w20 {
+  .tablet-width20 {
     width: 20%;
   }
-  .tablet-w25 {
+  .tablet-width25 {
     width: 25%;
   }
-  .tablet-w30 {
+  .tablet-width30 {
     width: 30%;
   }
-  .tablet-w33 {
+  .tablet-width33 {
     width: 33%;
   }
-  .tablet-w35 {
+  .tablet-width35 {
     width: 35%;
   }
-  .tablet-w40 {
+  .tablet-width40 {
     width: 40%;
   }
-  .tablet-w45 {
+  .tablet-width45 {
     width: 45%;
   }
-  .tablet-w50 {
+  .tablet-width50 {
     width: 50%;
   }
-  .tablet-w55 {
+  .tablet-width55 {
     width: 55%;
   }
-  .tablet-w60 {
+  .tablet-width60 {
     width: 60%;
   }
-  .tablet-w65 {
+  .tablet-width65 {
     width: 65%;
   }
-  .tablet-w67 {
+  .tablet-width67 {
     width: 67%;
   }
-  .tablet-w70 {
+  .tablet-width70 {
     width: 70%;
   }
-  .tablet-w75 {
+  .tablet-width75 {
     width: 75%;
   }
-  .tablet-w80 {
+  .tablet-width80 {
     width: 80%;
   }
-  .tablet-w85 {
+  .tablet-width85 {
     width: 85%;
   }
-  .tablet-w90 {
+  .tablet-width90 {
     width: 90%;
   }
-  .tablet-w95 {
+  .tablet-width95 {
     width: 95%;
   }
-  .tablet-w100 {
+  .tablet-width100 {
     width: 100%;
   }
   .tablet-hidden {
@@ -578,73 +578,73 @@
 
 /* from tablet landscape above */
 @media screen and (min-width: 801px) {
-  .tabletls-w5 {
+  .tabletls-width5 {
     width: 5%;
   }
-  .tabletls-w10 {
+  .tabletls-width10 {
     width: 10%;
   }
-  .tabletls-w15 {
+  .tabletls-width15 {
     width: 15%;
   }
-  .tabletls-w17 {
+  .tabletls-width17 {
     width: 17%;
   }
-  .tabletls-w20 {
+  .tabletls-width20 {
     width: 20%;
   }
-  .tabletls-w25 {
+  .tabletls-width25 {
     width: 25%;
   }
-  .tabletls-w30 {
+  .tabletls-width30 {
     width: 30%;
   }
-  .tabletls-w33 {
+  .tabletls-width33 {
     width: 33%;
   }
-  .tabletls-w35 {
+  .tabletls-width35 {
     width: 35%;
   }
-  .tabletls-w40 {
+  .tabletls-width40 {
     width: 40%;
   }
-  .tabletls-w45 {
+  .tabletls-width45 {
     width: 45%;
   }
-  .tabletls-w50 {
+  .tabletls-width50 {
     width: 50%;
   }
-  .tabletls-w55 {
+  .tabletls-width55 {
     width: 55%;
   }
-  .tabletls-w60 {
+  .tabletls-width60 {
     width: 60%;
   }
-  .tabletls-w65 {
+  .tabletls-width65 {
     width: 65%;
   }
-  .tabletls-w67 {
+  .tabletls-width67 {
     width: 67%;
   }
-  .tabletls-w70 {
+  .tabletls-width70 {
     width: 70%;
   }
-  .tabletls-w75 {
+  .tabletls-width75 {
     width: 75%;
   }
-  .tabletls-w80 {
+  .tabletls-width80 {
     width: 80%;
   }
-  .tabletls-w85 {
+  .tabletls-width85 {
     width: 85%;
   }
-  .tabletls-w90 {
+  .tabletls-width90 {
     width: 90%;
   }
-  .tabletls-w95 {
+  .tabletls-width95 {
     width: 95%;
   }
-  .tabletls-w100 {
+  .tabletls-width100 {
     width: 100%;
   }
   .tabletls-hidden {
@@ -704,73 +704,73 @@
 
 /* from desktop above */
 @media screen and (min-width: 1025px) {
-  .desktop-w5 {
+  .desktop-width5 {
     width: 5%;
   }
-  .desktop-w10 {
+  .desktop-width10 {
     width: 10%;
   }
-  .desktop-w15 {
+  .desktop-width15 {
     width: 15%;
   }
-  .desktop-w17 {
+  .desktop-width17 {
     width: 17%;
   }
-  .desktop-w20 {
+  .desktop-width20 {
     width: 20%;
   }
-  .desktop-w25 {
+  .desktop-width25 {
     width: 25%;
   }
-  .desktop-w30 {
+  .desktop-width30 {
     width: 30%;
   }
-  .desktop-w33 {
+  .desktop-width33 {
     width: 33%;
   }
-  .desktop-w35 {
+  .desktop-width35 {
     width: 35%;
   }
-  .desktop-w40 {
+  .desktop-width40 {
     width: 40%;
   }
-  .desktop-w45 {
+  .desktop-width45 {
     width: 45%;
   }
-  .desktop-w50 {
+  .desktop-width50 {
     width: 50%;
   }
-  .desktop-w55 {
+  .desktop-width55 {
     width: 55%;
   }
-  .desktop-w60 {
+  .desktop-width60 {
     width: 60%;
   }
-  .desktop-w65 {
+  .desktop-width65 {
     width: 65%;
   }
-  .desktop-w67 {
+  .desktop-width67 {
     width: 67%;
   }
-  .desktop-w70 {
+  .desktop-width70 {
     width: 70%;
   }
-  .desktop-w75 {
+  .desktop-width75 {
     width: 75%;
   }
-  .desktop-w80 {
+  .desktop-width80 {
     width: 80%;
   }
-  .desktop-w85 {
+  .desktop-width85 {
     width: 85%;
   }
-  .desktop-w90 {
+  .desktop-width90 {
     width: 90%;
   }
-  .desktop-w95 {
+  .desktop-width95 {
     width: 95%;
   }
-  .desktop-w100 {
+  .desktop-width100 {
     width: 100%;
   }
   .desktop-hidden {
@@ -830,73 +830,73 @@
 
 /* from widescreen above */
 @media screen and (min-width: 1367px) {
-  .widescreen-w5 {
+  .widescreen-width5 {
     width: 5%;
   }
-  .widescreen-w10 {
+  .widescreen-width10 {
     width: 10%;
   }
-  .widescreen-w15 {
+  .widescreen-width15 {
     width: 15%;
   }
-  .widescreen-w17 {
+  .widescreen-width17 {
     width: 17%;
   }
-  .widescreen-w20 {
+  .widescreen-width20 {
     width: 20%;
   }
-  .widescreen-w25 {
+  .widescreen-width25 {
     width: 25%;
   }
-  .widescreen-w30 {
+  .widescreen-width30 {
     width: 30%;
   }
-  .widescreen-w33 {
+  .widescreen-width33 {
     width: 33%;
   }
-  .widescreen-w35 {
+  .widescreen-width35 {
     width: 35%;
   }
-  .widescreen-w40 {
+  .widescreen-width40 {
     width: 40%;
   }
-  .widescreen-w45 {
+  .widescreen-width45 {
     width: 45%;
   }
-  .widescreen-w50 {
+  .widescreen-width50 {
     width: 50%;
   }
-  .widescreen-w55 {
+  .widescreen-width55 {
     width: 55%;
   }
-  .widescreen-w60 {
+  .widescreen-width60 {
     width: 60%;
   }
-  .widescreen-w65 {
+  .widescreen-width65 {
     width: 65%;
   }
-  .widescreen-w67 {
+  .widescreen-width67 {
     width: 67%;
   }
-  .widescreen-w70 {
+  .widescreen-width70 {
     width: 70%;
   }
-  .widescreen-w75 {
+  .widescreen-width75 {
     width: 75%;
   }
-  .widescreen-w80 {
+  .widescreen-width80 {
     width: 80%;
   }
-  .widescreen-w85 {
+  .widescreen-width85 {
     width: 85%;
   }
-  .widescreen-w90 {
+  .widescreen-width90 {
     width: 90%;
   }
-  .widescreen-w95 {
+  .widescreen-width95 {
     width: 95%;
   }
-  .widescreen-w100 {
+  .widescreen-width100 {
     width: 100%;
   }
   .widescreen-hidden {
