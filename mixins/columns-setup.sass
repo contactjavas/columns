@@ -8,7 +8,14 @@
 
   @each $width in $percent-points
     .#{$breakpoint}width#{$width}
-      width: $width + %
+      @if $width == 17
+        width: 16.6666667%
+      @else if $width == 33
+        width: 33.3333333%
+      @else if $width == 67
+        width: 66.6666667%
+      @else
+        width: $width + %
 
 
 

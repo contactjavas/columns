@@ -1,4 +1,4 @@
-/*! https://github.com/greenoss/columns v1.1.1 | MIT License | https://github.com/greenoss/columns */
+/*! https://github.com/greenoss/columns v1.1.2 | MIT License | https://github.com/greenoss/columns */
 /* general */
 * {
   -moz-box-sizing: border-box;
@@ -49,7 +49,7 @@
 }
 
 .width17 {
-  width: 17%;
+  width: 16.6666667%;
 }
 
 .width20 {
@@ -65,7 +65,7 @@
 }
 
 .width33 {
-  width: 33%;
+  width: 33.3333333%;
 }
 
 .width35 {
@@ -97,7 +97,7 @@
 }
 
 .width67 {
-  width: 67%;
+  width: 66.6666667%;
 }
 
 .width70 {
@@ -210,7 +210,7 @@
     width: 15%;
   }
   .phone-width17 {
-    width: 17%;
+    width: 16.6666667%;
   }
   .phone-width20 {
     width: 20%;
@@ -222,7 +222,7 @@
     width: 30%;
   }
   .phone-width33 {
-    width: 33%;
+    width: 33.3333333%;
   }
   .phone-width35 {
     width: 35%;
@@ -246,7 +246,7 @@
     width: 65%;
   }
   .phone-width67 {
-    width: 67%;
+    width: 66.6666667%;
   }
   .phone-width70 {
     width: 70%;
@@ -336,7 +336,7 @@
     width: 15%;
   }
   .phonels-width17 {
-    width: 17%;
+    width: 16.6666667%;
   }
   .phonels-width20 {
     width: 20%;
@@ -348,7 +348,7 @@
     width: 30%;
   }
   .phonels-width33 {
-    width: 33%;
+    width: 33.3333333%;
   }
   .phonels-width35 {
     width: 35%;
@@ -372,7 +372,7 @@
     width: 65%;
   }
   .phonels-width67 {
-    width: 67%;
+    width: 66.6666667%;
   }
   .phonels-width70 {
     width: 70%;
@@ -462,7 +462,7 @@
     width: 15%;
   }
   .tablet-width17 {
-    width: 17%;
+    width: 16.6666667%;
   }
   .tablet-width20 {
     width: 20%;
@@ -474,7 +474,7 @@
     width: 30%;
   }
   .tablet-width33 {
-    width: 33%;
+    width: 33.3333333%;
   }
   .tablet-width35 {
     width: 35%;
@@ -498,7 +498,7 @@
     width: 65%;
   }
   .tablet-width67 {
-    width: 67%;
+    width: 66.6666667%;
   }
   .tablet-width70 {
     width: 70%;
@@ -588,7 +588,7 @@
     width: 15%;
   }
   .tabletls-width17 {
-    width: 17%;
+    width: 16.6666667%;
   }
   .tabletls-width20 {
     width: 20%;
@@ -600,7 +600,7 @@
     width: 30%;
   }
   .tabletls-width33 {
-    width: 33%;
+    width: 33.3333333%;
   }
   .tabletls-width35 {
     width: 35%;
@@ -624,7 +624,7 @@
     width: 65%;
   }
   .tabletls-width67 {
-    width: 67%;
+    width: 66.6666667%;
   }
   .tabletls-width70 {
     width: 70%;
@@ -714,7 +714,7 @@
     width: 15%;
   }
   .desktop-width17 {
-    width: 17%;
+    width: 16.6666667%;
   }
   .desktop-width20 {
     width: 20%;
@@ -726,7 +726,7 @@
     width: 30%;
   }
   .desktop-width33 {
-    width: 33%;
+    width: 33.3333333%;
   }
   .desktop-width35 {
     width: 35%;
@@ -750,7 +750,7 @@
     width: 65%;
   }
   .desktop-width67 {
-    width: 67%;
+    width: 66.6666667%;
   }
   .desktop-width70 {
     width: 70%;
@@ -840,7 +840,7 @@
     width: 15%;
   }
   .widescreen-width17 {
-    width: 17%;
+    width: 16.6666667%;
   }
   .widescreen-width20 {
     width: 20%;
@@ -852,7 +852,7 @@
     width: 30%;
   }
   .widescreen-width33 {
-    width: 33%;
+    width: 33.3333333%;
   }
   .widescreen-width35 {
     width: 35%;
@@ -876,7 +876,7 @@
     width: 65%;
   }
   .widescreen-width67 {
-    width: 67%;
+    width: 66.6666667%;
   }
   .widescreen-width70 {
     width: 70%;
