@@ -11,15 +11,15 @@
   clear: both;
 }
 
-.columns > .column {
+.columns > .column, .row > .column {
   float: left;
 }
 
-.columns > .column:last-child, .columns > .column.floated-right {
+.columns > .column:last-child, .columns > .column.floated-right, .row > .column:last-child, .row > .column.floated-right {
   float: right;
 }
 
-.columns > .column.left:last-child {
+.columns > .column.left:last-child, .row > .column.left:last-child {
   float: left;
 }
 
